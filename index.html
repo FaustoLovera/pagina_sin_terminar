@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fausto</title>
+    <link rel="stylesheet" href="proyecto.css">
+    
+</head>
+<body>
+    <section>
+        <form>
+            <!--inicio-->
+            <h1>Inicio</h1>
+            <div class="input">
+                <input type="text" required>
+                <label for="">Usuario</label>
+            </div>
+
+            <!--contraseña-->
+            <div class="input">
+                <input type="password" required>
+                <label for="">Contraseña</label>
+            </div>
+
+            <!--olvide la contraseña-->
+            <div class="olvide">
+                <label for=""><input type="checkbox"> Recordar</label>
+                <a href="mp_contraseña.html">Olvide la Contraseña</a>
+            </div>
+
+            <button onclick="web()">Iniciar</button>
+
+            <!--registrarme-->
+            <div class="registrarme">
+                <p>No tengo una cuenta <a href="mp_registrarse.html">Registrate</a></p>
+            </div>
+
+            <!--links-->
+            <div class="centrar">
+                <a href="https://www.facebook.com" target="_blank"><i><img src="1facebook.png"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i><img src="2instagram.png"></i></a>
+                <a href="https://accounts.google.com/" target="_blank"><i><img src="3google.png"></i></a>
+            </div>
+        </form>
+    </section>
+
+    <!--function-->
+    <script>    
+        function web() {
+            window.location.href = "mp_web.html";
+        }
+    </script>
+</body>
+</html>
